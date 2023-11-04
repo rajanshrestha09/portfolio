@@ -16,9 +16,9 @@
             <nav class="flex justify-between w-full h-auto mt-2 items-center">
                 <h1 class="text-6xl text-blue-400 font-serif">RaJan</h1>
                 <ul class="hidden md:flex text-1 uppercase">
-                    <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#">Home</a></li>
+                    <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#home">Home</a></li>
                     <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#experience">Experience</a></li>
-                    <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#">Projects</a></li>
+                    <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#projects">Projects</a></li>
                     <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#skills">Skills</a></li>
                     <li class="mx-2 p-2 rounded text-white hover:bg-blue-500"><a href="#education">Qualifications</a>
                     </li>
@@ -30,12 +30,14 @@
                         d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
                 </svg>
             </nav>
-            <div class="flex flex-col-reverse md:flex-row  h-[400px] items-center justify-around mt-12 mb-24">
+            <div class="flex flex-col-reverse md:flex-row  h-[400px] items-center justify-around mt-12 mb-24" id="home">
                 <p
                     class="text-2xl text-center font-serif leading-[40px] tracking-widest md:text-4xl  px-2 py-6 subpixel-antialiased">
-                    I am <span class="text-2xl font-medium text-blue-400 sm:text-4xl lg:text-6xl font-serif">Rajan Shrestha.</span>
+                    I am <span class="text-2xl font-medium text-blue-400 sm:text-4xl lg:text-6xl font-serif">Rajan
+                        Shrestha.</span>
                     <br>
-                    <span class="text-2xl font-medium sm:text-4xl lg:text-6xl text-blue-400">A Full-Stack Web developer</span>
+                    <span class="text-2xl font-medium sm:text-4xl lg:text-6xl text-blue-400">A Full-Stack Web
+                        developer</span>
                 </p>
                 <img src="../images/rajan.jpeg"
                     class="sm:h-64 sm:w-64 overflow-hidden rounded-full md:h-72 md:w-72 md:rounded-full border"
@@ -46,7 +48,7 @@
 
     <!-- Header start here -->
     <!-- Professional Experience Start-->
-    <div id="experience" class="pt-20 pb-28 bg-slate-700 h-auto w-full">
+    <div id="experience" class="pt-20 pb-28 bg-slate-800 h-auto w-full">
         <p class="text-2xl text-blue-600 text-center uppercase md:text-4xl md:font-medium">Professional Experience</p>
         <!-- <hr class="mx-36 border border-blue-200" /> -->
         <div class="text-white mt-5 px-4 md:mt-10  xl:mx-[250px]">
@@ -113,11 +115,33 @@
     </div>
     <!-- Professional Experience End-->
 
+    <!-- Projects Start-->
+    <div id="projects" class="pt-20 pb-28 text-white w-full h-auto ">
+        <p class=" text-4xl text-blue-600 text-center uppercase">Projects</p>
+        <div
+            class="grid grid-cols-1 place-content-center place-items-center md:grid-cols-2 gap-2 mt-5 px-4 xl:mx-[250px]">
+            <div class="border-2 p-2 rounded-lg h-72 w-96">
+                <img src="https://previews.dropbox.com/p/thumb/ACFY8z7lBblGKS0hgq0GwfWLnTbRr0bIpNIvsd8poLRdf1LOUuuL4sZnNW5qG1tqt_QlPuvT2FTbxL4OgeTdq9q_DV4w-M7PQzrfaxQKDS24AJ-vynsB8FlfuJAalYdk0Q5SFueu6oG7fHM0WEEKS9FNRvl8R0akkl525acGaM2FhRavrx_ccM0vj8wi81Eaf0uC58aCXGZmKAxmAMFecpzWWcc-_ryWgpbZJV6rdpfao7F4NW1WQgTFJ5bDgKuaKhMCE5g4q4qJ_EZ8zBe8075rDin4UG8PBcLNfJVsGmV-vFNaSmWYQQaicL5HCbMgovMbbZuTQprcvHlIKF0ILwWZ/p.png" alt="" class="my-2 w-full h-auto" />
+                
+                <a href="https://reactproject.rajanshr.tech/" class=""><p class="text-2xl text-center on mb-1 hover:bg-blue-400 rounded-md">React Project</p></a>
+                <hr>
+                <p class="text-xl">Tools Use : <span class="text-blue-400">React | Appwrite | Tailwindcss | HTML | CSS | JS</span>  </p>
+            </div>
+            <div class="border-2 p-2 rounded-lg h-72 w-96">
+                <img src="https://previews.dropbox.com/p/thumb/ACFJeqNEgKCUEnP3rH2_Y6vxPy6ikQV8X07EF9HENBNycOSHPj29B68ZcW9zgQzmaFDAv3TDrjGmQ8JHdA-dzVINYnR1-7FE965cddBwx4s5QMMklqO0xAkVp3U9dZB55CHiHZgXmBjpoj3yEur-GV0CGtZ5clhd24ygvzssbfWOctZ6LZkkv8ehu_7uN3pyepvac-_qiP2zWGoXVi4AARS5Q7iy4SznoBJIy7UBXItNXAUfl8oemxYn_K87YmdMYGlznmcSx4oF4hC6cc8dvZ28Y7ARV758c-b2oKjwSAf37d5yJRWXdhkGNQnQi9xWE7zxIhxVICVWF9dFvmQ_UHgl/p.png" alt="" class="my-2 w-full h-auto" />
+                
+                <a href="https://aamataa.com/" class=""><p class="text-2xl text-center on mb-1 hover:bg-blue-400 rounded-md">Aamata</p></a>
+                <hr>
+                <p class="text-xl">Tools Use : <span class="text-blue-400">Bootstrap | HTML | CSS</span>  </p>   
+            </div>
+        </div>
+    </div>
+    <!-- Projects Start-->
     <!-- Skills Start -->
-    <div id="skills" class="pt-20 pb-28 text-white w-full h-auto ">
-        <p class=" text-4xl text-blue-600 text-center uppercase">Skills</p>
+    <div id="skills" class="pt-20 pb-28 bg-slate-800 text-white w-full h-auto ">
+        <p class=" text-4xl text-blue-600  text-center uppercase">Skills</p>
         <!-- <hr class="mx-36 border border-blue-200" /> -->
-        <ul class=" mt-5 px-4 xl:mx-[250px]">
+        <ul class="mt-5 px-4 xl:mx-[250px]">
             <li class="md:text-lg"> <i class="fa-solid fa-check mr-2"></i>Proficient in Node.js/Express, Next.js,
                 React.js, and
                 various databases including MongoDB, MySQL.</li>
@@ -136,10 +160,13 @@
                 building dynamic web applications.</li>
         </ul>
     </div>
+
+
+
     <!-- Skills End -->
 
     <!-- Education Background -->
-    <div id="education" class="pt-20 pb-28 bg-slate-700 h-auto w-full text-white ">
+    <div id="education" class="pt-20 pb-28  h-auto w-full text-white ">
         <p class="text-4xl text-blue-600 text-center uppercase">Education & Certification</p>
         <!-- <hr class="mx-36 border border-blue-200" /> -->
         <p class=" mt-5 px-4 xl:mx-[250px] md:text-lg"><span class="text-2xl text-blue-400">Bachelor of Science in
@@ -151,7 +178,7 @@
     </div>
     <!-- Education Background -->
 
-    <div class="pt-20 pb-28 h-auto w-full  text-white">
+    <div class="pt-20 pb-28 h-auto w-full bg-slate-800 text-white">
         <p class="text-4xl text-blue-600 text-center uppercase">HIGHLIGHT OF QUALIFICATIONS</p>
         <!-- <hr class="mx-36 border border-blue-200" /> -->
         <div class="p-4 mt-10 grid gap-2 grid-cols-1 lg:grid-cols-2  xl:grid-cols-4 xl:mx-[250px]">
@@ -176,7 +203,8 @@
                     class="text-lg text-blue-400 md:text-2xl">Troubleshooting & Problem
                     Solving: <br></span> Diagnosed hardware and
                 software issues as an IT and
-                Communication Officer, offering quick and effective solutions. Expertise in technical problem-solving
+                Communication Officer, offering quick and effective solutions. Expertise in technical
+                problem-solving
                 and hardware/software fault resolution.</p>
         </div>
         <!-- <ul class="mx-[250px] mt-5">
@@ -199,9 +227,10 @@
     </div>
 
     <!-- Contact Start -->
-    <div id="contact" class="pt-20 bg-slate-700 h-auto w-full text-white ">
+    <div id="contact" class="pt-20  h-auto w-full text-white ">
         <p class="text-4xl text-blue-600 text-center uppercase">Contact Us</p>
-        <div class="p-2 mt-10 grid grid-rows-3 place-content-center lg:grid-cols-3 lg:place-content-center md:justify-items-center xl:mx-[250px]">
+        <div
+            class="p-2 mt-10 grid grid-rows-3 place-content-center lg:grid-cols-3 lg:place-content-center md:justify-items-center xl:mx-[250px]">
             <div class="mt-2 flex border-2 rounded-xl p-4 bg-blue-500 w-72 text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512" class="text-blue-600">
                     <path
@@ -228,7 +257,8 @@
                     <path
                         d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
                 </svg>
-                <a class="mx-4 text-lg" href="https://www.linkedin.com/in/rajan-shrestha-9122b1101" target="_blank">LinkedIn</a>
+                <a class="mx-4 text-lg" href="https://www.linkedin.com/in/rajan-shrestha-9122b1101"
+                    target="_blank">LinkedIn</a>
             </div>
         </div>
     </div>
